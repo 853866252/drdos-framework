@@ -1,7 +1,7 @@
 # Drdos Framework
 
-Drdos Framework is my outcome of drdos learning. I try to write this like a real framework.
-The tools has been completed. I'll release it later. In fact, it's easy to write this tool. Just forge UDP raw pack and insert the payload.
+- Drdos Framework is my outcome of drdos learning. I try to write this like a real framework.
+- The tools has been completed. I'll release it later. In fact, it's easy to write this tool. Just forge UDP raw pack and insert the payload.
 
 ## Declaration
 
@@ -19,8 +19,8 @@ The tools has been completed. I'll release it later. In fact, it's easy to write
 
 ### Some help
 
-`--type` should be one of `dns`,`mem`,`ntp`,`snmp`,`ssdp`,`portmap`,`ldap`
-`-o` the outputfile is saved in `/data/results`
+- `--type` should be one of `dns`,`mem`,`ntp`,`snmp`,`ssdp`,`portmap`,`ldap`
+- `-o` the outputfile is saved in `/data/results`
 
 ## Intruduction
 
