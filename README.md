@@ -1,7 +1,6 @@
 # Drdos Framework
 
-- Drdos Framework is my outcome of drdos learning. I try to write this like a real framework.
-- The tools has been completed. I'll release it later. In fact, it's easy to write this tool. Just forge UDP raw pack and insert the payload.
+Drdos Framework is my outcome of drdos working. I try to write this like a real framework.
 
 ## Declaration
 
@@ -17,10 +16,18 @@
 1. `go get github.com/google/gopacket`
 2. Just run `go run main.go --help`
 
+`[*] Attention : In check mode and mix mode, -f in /data/loadfile/, -o in /data/results/. But in attack mode, -f in /data/results/. You know, just for convenience`
+
 ### Some help
 
-- `--type` should be one of `dns`,`mem`,`ntp`,`snmp`,`ssdp`,`portmap`,`ldap`
-- `-o` the outputfile is saved in `/data/results`
+`--type` should be one of `dns`,`mem`,`ntp`,`snmp`,`ssdp`,`portmap`,`ldap`
+`-f` must in `/data/loadfile/`
+`-o` the outputfile is saved in `/data/results/`
+
+## Q&A
+
+Q: How much flow can this do?
+A: It depends on how many source ip you get, and the type of attack. Memcached nearly 200 times, ntp 10~15 times, ssdp 10 times, dns 5 times...
 
 ## Intruduction
 
